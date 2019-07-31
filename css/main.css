@@ -1,0 +1,274 @@
+
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #0b4f6c;
+}
+
+* { 
+   box-sizing: border-box; 
+} /*The border-box value includes both the padding and the border 
+thickness as part of the width and height values. Aplies to everything on the page*/
+
+
+@font-face {
+	font-family: 'bebas neue';
+	src: url('../fonts/BebasNeue.otf') format('opentype');
+}
+
+
+#portfolio {
+	height: 1450px;
+}
+
+
+#about {
+	height: 980px;
+}
+
+
+#contact {
+	height: 310px;
+}
+
+
+.section-heading {
+	color: #0b4f6c;
+	font-family: 'bebas neue';
+	font-size: 46px;
+	margin: 0 auto;
+	padding: 40px 40px;
+	text-align: center;
+}
+
+
+.body-text {
+	font-size: 23px;
+	line-height: 35px;
+}
+
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+
+}
+
+/************ GRID *************/
+
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+
+/************ NAV BAR *************/
+
+
+header #header-bar {
+	background-color: #f5dfdb;
+	font-family: 'bebas neue';
+	height: 50px;
+}
+
+
+#header-bar h1 {
+	color: #6590a2;
+	font-weight: normal;
+	font-size: 30px;
+	margin: 8px 0px 0px 0px;
+}
+
+
+nav {
+	float: right;
+	padding: 8px 0px;
+
+}
+
+
+nav ul li {
+	display: inline-block;
+	font-size: 30px;
+	padding-left: 40px;
+	text-transform: uppercase;
+}
+
+
+nav a:link, nav a:visited {
+	color: #6590a2;
+	text-decoration: none;
+}
+
+
+nav a:hover, nav a:focus, nav a:active  {
+	color: #0b4f6c;
+	text-decoration: none;
+}
+
+
+/************ HEADER SECTION *************/
+
+
+header {
+	background: url("../img/main-image.png");
+	background-size: cover;
+	height: 870px;
+}
+
+
+header h1 {
+	color: #ea858d;
+	font-family: 'bebas neue';
+	font-size: 120px;
+	margin: 85px 0px 0px 0px;
+	padding: 0px;
+}
+
+
+header h1 span {
+	color: #0b4f6c;
+}
+
+
+header p {
+	color: #6590a2;
+	font-size: 65px;
+	margin: 0px;
+}
+
+
+/************ PORTFOLIO SECTION *************/
+
+
+#portfolio {
+	background-color: white;
+}
+
+
+#portfolio .full-width {
+	clear: both;
+	height: 352px;
+	margin-bottom: 70px;	
+}
+
+
+#portfolio .half-width {
+	height: 350px;
+}
+
+
+#portfolio img {
+	border: 1px solid #0b4f6c;
+}
+
+
+#portfolio a img {
+	outline: none;
+} /*removes outline from image link*/
+
+
+#portfolio h4 {
+	color: #ea858d; 
+}
+
+
+#portfolio p {
+	margin-top: 20px;
+}
+
+
+.sub-heading {
+	font-weight: normal;
+}
+
+
+/************ ABOUT SECTION *************/
+
+
+#about {
+	background-color: #f5dfdb;
+	margin: 0;
+}
+
+
+#about p {
+	margin-top: 20px;
+}
+
+
+#about p span {
+	font-weight: 700;
+}
+
+
+/************ CONTACT SECTION *************/
+
+
+#contact {
+	color: white;
+	background-color: #ea858d;
+	margin: 0;
+	text-align: center;	
+} 
+
+
+#contact .full-width {
+	height: 100px;
+	margin-bottom: 35px;
+}
+
+
+#contact h4 {
+	margin-bottom: 15px;
+}
+
+
+#contact p.body-text {
+	line-height: 28px;
+}
+
+
+#contact a {
+	color: white;
+	text-decoration: none;
+}
+
+
+#contact ul {
+	list-style: none;
+}
+
+
+#contact ul li {
+	display: inline-block;
+}
+
+
+#contact ul img {
+	font-size: 32px;
+	padding: 0px 15px 0px 15px;
+}
+
+
+.copyright {
+	clear: both;
+	font-size: 18px;
+	margin: 0px auto;
+}
